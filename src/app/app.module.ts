@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ColorChangeComponent } from './color-change/color-change.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColorChangeComponent
   ],
   imports: [
     BrowserModule,
